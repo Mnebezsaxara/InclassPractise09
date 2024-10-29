@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task Combination</title>
+    <style>
+        #progressBar {
+            width: 100%;
+            background-color: #ddd;
+        }
+        #progress {
+            width: 0%;
+            height: 30px;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Tasks</h1>
+
+    <!-- Task 2: -->
+    <label for="textInput">Type something and press Enter:</label>
+    <input type="text" id="textInput">
+
+    <br><br>
+
+    <!-- Task 3: -->
+    <button id="doubleClickElement">Double-click me</button>
+
+    <br><br>
+
+    <!-- Task 4: -->
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+    <button onclick="updateProgress()">Complete Task</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
